@@ -3,7 +3,7 @@
 ## Temat: Lokalizacja i Zliczanie Obiektów z Wykorzystaniem Fuzji Danych z Czujników Bezzałogowego Statku Powietrznego
 
 <p align="center">
-  <img src="media/detection_photo.jpg" alt="Schemat Drona" width="45%">
+  <img src="media/detection_photo.png" alt="Schemat Drona" width="45%">
   <img src="media/drone_photo.jpeg" alt="Zdjęcie Drona" width="35%">
 </p>
 
