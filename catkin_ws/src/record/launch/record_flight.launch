@@ -1,0 +1,15 @@
+<launch>
+    <!-- Argument for the FCU URL with a default value -->
+    <arg name="fcu_url" default="/dev/ttyUSB0:921600" />
+
+    <!-- Include the original MAVROS px4.launch file and pass the fcu_url argument -->
+    <include file="$(find mavros)/launch/px4.launch">
+        <arg name="fcu_url" value="$(arg fcu_url)" />
+    </include>
+
+    <!-- Rosbag record -->
+    <node name="record_rosbag" pkg="record" type="record_rosbag.py" output="screen" />
+
+    <!-- Realsense camera -->
+    <include file="$(find realsense2_camera)/launch/rs_camera.launch" />
+</launch>

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="detection" type="object_detection_yolo.py" name="display_detections" output="screen"/>
+    <node pkg="detection" type="projection.py" name="projection" output="screen"/>
+    <node pkg="detection" type="global_pose.py" name="global_pose" output="screen"/>
+</launch>

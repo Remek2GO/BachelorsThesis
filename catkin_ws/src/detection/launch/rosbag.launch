@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="bag_file" default="/home/jetson/bags/rosbag_20000101_024447.bag" />
+    <node pkg="rqt_gui" type="rqt_gui" name="rqt_gui" output="screen" />
+    <node pkg="rosbag" type="play" name="rosbag_play" args="-l $(arg bag_file)" output="screen" />
+</launch>
