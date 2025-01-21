@@ -1,6 +1,6 @@
 # Projekt inżynierski - Automatyka i Robotyka
  
-## Temat: Lokalizacja i Zliczanie Obiektów z Wykorzystaniem Fuzji Danych z Czujników Bezzałogowego Statku Powietrznego
+## Temat: Lokalizacja i zliczanie obiektów z wykorzystaniem fuzji danych z czujników bezzałogowego statku powietrznego
 
 <p align="center">
   <img src="media/rosbag_20000101_024312_median_gif.gif" alt="Schemat Drona" width="45%">
