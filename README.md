@@ -3,7 +3,7 @@
 ## Temat: Lokalizacja i zliczanie obiektów z wykorzystaniem fuzji danych z czujników bezzałogowego statku powietrznego
 
 <p align="center">
-  <img src="media/rosbag_20000101_024312_median_gif.gif" alt="Schemat Drona" width="45%">
+  <img src="media/detection_photo.png" alt="Schemat Drona" width="45%">
   <img src="media/drone_photo.jpeg" alt="Zdjęcie Drona" width="35%">
 </p>
 
